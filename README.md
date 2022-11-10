@@ -15,6 +15,4 @@ Refinar o modelo acrescentando os seguintes pontos:
 
 . **Entrega – Possui status e código de rastreio:** Criei uma nova entidade chamada entrega que contém os atributos de status e rastreio, além de outros relacionados às datas de saída e entrega, e também de transportadora.
 
-[Link do diagrama a ser refinado](https://github.com/casjunior93/DIO---Refinando-um-Projeto-Conceitual-de-Banco-de-Dados-E-COMMERCE/raw/main/E-commerce/diagrama-e-commerce-aula.png)
 
-[Link do diagrama refinado](https://github.com/casjunior93/DIO---Refinando-um-Projeto-Conceitual-de-Banco-de-Dados-E-COMMERCE/raw/main/E-commerce/diagrama-e-commerce-aula-refinado.png)
