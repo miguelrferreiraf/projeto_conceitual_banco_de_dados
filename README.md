@@ -1,18 +1,16 @@
-# Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE
+# Geração Tech Unimed
 
-Para este projeto, aplico os conceitos de modelagem de banco de dados vistos anteriormente na seção Bancos de Dados SQL e NoSql do bootcamp Geração Tech Unimed-BH - Ciência de Dados. Neste desafio, modelei um banco para o contexto de Ordens de Serviço, de Universidade e de E-commerce. Para o caso do E-commerce, tive como desafio terminar a modelagem utilizando os requisitos dados pela instrutora.
+## Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE
 
-# Contexto: 
-venda de produtos.
+Neste projeto demonstram-se os conceitos de modelagem de banco de dados SQL e NoSql. Banco para Ordens de Serviço, de Universidade e de E-commerce.
 
-# Objetivo:
+## Objetivo:
 
 Refinar o modelo acrescentando os seguintes pontos:
 
-. **Cliente PJ e PF - Uma conta pode ser PJ ou PF, mas não pode ter as duas informações:** Como os requisitos não informam se deve haver alguma característica particular ao cliente se ele for PJ ou PF, adicionei um atributo chamado tipo_conta para a entidade Cliente para informar se o cliente é PF ou PJ. Caso houvesse alguma particularização, eu criaria as subclasses Pessoa Física e Pessoa Juridica para a classe Cliente, cada uma dessas contendo atributos relacionados às suas particularidades.
+. **Uma conta pode ser PJ ou PF** 
 
-. **Pagamento – Pode ter cadastrado mais de uma forma de pagamento:** Criei uma entidade nova chamada Pagamento, que contém atributos relacionados aos dados de cartões de crédito que podem ser persistidos.
+. **Mais de uma forma de pagamento cadastráveis**
 
-. **Entrega – Possui status e código de rastreio:** Criei uma nova entidade chamada entrega que contém os atributos de status e rastreio, além de outros relacionados às datas de saída e entrega, e também de transportadora.
-
+. **Status e código de rastreio** 
 
